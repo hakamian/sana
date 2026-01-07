@@ -37,10 +37,10 @@ export default function Home() {
             </nav>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-            <span style={{ fontSize: '14px', fontWeight: 'bold', cursor: 'pointer' }}>ورود</span>
-            <button style={{ background: 'linear-gradient(135deg, #06b6d4, #6366f1)', color: 'white', border: 'none', padding: '10px 24px', borderRadius: '50px', fontWeight: '900', fontSize: '14px', cursor: 'pointer', boxShadow: '0 10px 20px -5px rgba(6, 182, 212, 0.3)' }}>
+            <a href="/login" style={{ fontSize: '14px', fontWeight: 'bold', cursor: 'pointer', textDecoration: 'none', color: 'inherit' }}>ورود</a>
+            <a href="/signup" style={{ background: 'linear-gradient(135deg, #06b6d4, #6366f1)', color: 'white', border: 'none', padding: '10px 24px', borderRadius: '50px', fontWeight: '900', fontSize: '14px', cursor: 'pointer', boxShadow: '0 10px 20px -5px rgba(6, 182, 212, 0.3)', textDecoration: 'none' }}>
               شروع رایگان
-            </button>
+            </a>
           </div>
         </div>
       </header>
@@ -66,7 +66,7 @@ export default function Home() {
           </p>
 
           <div style={{ display: 'flex', gap: '24px', width: '100%', maxWidth: '480px', marginBottom: '100px' }}>
-            <button style={{ flex: 1.2, background: 'linear-gradient(135deg, #0f172a, #1e293b)', color: 'white', padding: '22px', borderRadius: '24px', fontSize: '18px', fontWeight: '900', border: 'none', cursor: 'pointer', boxShadow: '0 20px 40px -10px rgba(15, 23, 42, 0.25)', transition: 'transform 0.2s' }}>شروع رایگان</button>
+            <a href="/signup" style={{ flex: 1.2, background: 'linear-gradient(135deg, #0f172a, #1e293b)', color: 'white', padding: '22px', borderRadius: '24px', fontSize: '18px', fontWeight: '900', border: 'none', cursor: 'pointer', boxShadow: '0 20px 40px -10px rgba(15, 23, 42, 0.25)', transition: 'transform 0.2s', textDecoration: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>شروع رایگان</a>
             <button style={{ flex: 1, backgroundColor: 'white', border: '1px solid #e2e8f0', color: '#0f172a', padding: '22px', borderRadius: '24px', fontSize: '18px', fontWeight: '900', cursor: 'pointer', transition: 'all 0.2s' }}>مشاهده دمو</button>
           </div>
 
@@ -227,7 +227,7 @@ export default function Home() {
           <div style={{ position: 'absolute', inset: 0, opacity: 0.1, background: 'url(/assets/hero.png)', backgroundSize: 'cover', mixBlendMode: 'overlay' }}></div>
           <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: '900', marginBottom: '32px', position: 'relative' }}>همین حالا ماجراجویی خود را آغاز کنید</h2>
           <p style={{ fontSize: '20px', opacity: 0.8, marginBottom: '48px', maxWidth: '700px', margin: '0 auto 48px', position: 'relative' }}>به جمع هزاران کاربری بپیوندید که هوشمندانه در حال تغییر دنیای اطرافشان هستند.</p>
-          <button style={{ background: 'white', color: '#0f172a', padding: '24px 64px', borderRadius: '24px', fontSize: '20px', fontWeight: '900', border: 'none', cursor: 'pointer', position: 'relative', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }}>عضویت سریع</button>
+          <a href="/signup" style={{ background: 'white', color: '#0f172a', padding: '24px 64px', borderRadius: '24px', fontSize: '20px', fontWeight: '900', border: 'none', cursor: 'pointer', position: 'relative', boxShadow: '0 20px 40px rgba(0,0,0,0.3)', textDecoration: 'none', display: 'inline-block' }}>عضویت سریع</a>
         </section>
       </main>
 
